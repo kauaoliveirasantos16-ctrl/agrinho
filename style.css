@@ -1,0 +1,41 @@
+body{
+  margin:0;
+  overflow:hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#87CEEB;
+}
+
+.painel{
+  position:absolute;
+  top:10px;
+  width:100%;
+  text-align:center;
+  z-index:10;
+  color:white;
+  text-shadow:2px 2px 6px black;
+}
+
+h1{
+  margin:0;
+  font-size:55px;
+}
+
+p{
+  font-size:24px;
+  margin-top:5px;
+}
+
+.info{
+  margin-top:10px;
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.info span{
+  background:rgba(0,0,0,0.35);
+  padding:10px 15px;
+  border-radius:15px;
+  font-size:16px;
+}
